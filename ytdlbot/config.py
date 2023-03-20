@@ -5,7 +5,7 @@
 # 8/28/21 15:01
 #
 
-__author__ = "Benny <Afif.afiffebriandy@gmail.com>"
+__author__ = "Afif.afiffebriandy@gmail.com>"
 
 import os
 
@@ -58,10 +58,10 @@ AUDIO_FORMAT = os.getenv("AUDIO_FORMAT")
 ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
 IPv6 = os.getenv("IPv6", False)
-ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
+ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", True)
 # 0.01 means basically no limit
 RATE = float(os.getenv("RATE", 0.01))
 BURST = int(os.getenv("BURST", 3))
 PROVIDER_TOKEN = os.getenv("PROVIDER_TOKEN") or "1234"
-PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", False)
-ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", False)
+PLAYLIST_SUPPORT = os.getenv("PLAYLIST_SUPPORT", True)
+ENABLE_ARIA2 = os.getenv("ENABLE_ARIA2", True)

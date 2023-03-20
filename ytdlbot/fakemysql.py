@@ -5,7 +5,7 @@
 # 2/20/22 20:08
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Afif.afiffebriandy@gmail.com"
 
 import re
 import sqlite3

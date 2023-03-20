@@ -5,7 +5,7 @@
 # 1/2/22 10:17
 #
 
-__author__ = "Benny <benny.think@gmail.com>"
+__author__ = "Afif.afiffebriandy@gmail.com"
 
 from celery import Celery
 
