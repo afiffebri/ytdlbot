@@ -12,9 +12,10 @@ import os
 # general settings
 WORKERS: "int" = int(os.getenv("WORKERS", 100))
 PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: "int" = int(os.getenv("APP_ID", 111))
-APP_HASH = os.getenv("APP_HASH", "111")
-TOKEN = os.getenv("TOKEN", "3703WLI")
+APP_ID: "int" = int(os.getenv("APP_ID", 
+23533320))
+APP_HASH = os.getenv("APP_HASH", "d011d4627744d8d86c57b7acd8a47169")
+TOKEN = os.getenv("TOKEN", "6279088232:AAFDvXnnma8ux-VH7OgkmVcSnz1JfY_YCF4")
 
 REDIS = os.getenv("REDIS")
 
@@ -37,7 +38,7 @@ COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink"
 COFFEE_TOKEN = os.getenv("COFFEE_TOKEN")
 AFD_TOKEN = os.getenv("AFD_TOKEN")
 AFD_USER_ID = os.getenv("AFD_USER_ID")
-OWNER = os.getenv("OWNER", "BennyThink")
+OWNER = os.getenv("OWNER", "Afiffebri")
 
 # limitation settings
 AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "")
